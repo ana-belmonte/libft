@@ -6,7 +6,7 @@
 /*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:12:08 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/06 21:12:45 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_bzero(void *buffer, size_t n)
 	while (i < n)
 	{
 		new_buffer[i] = 0;
-		i++; 
+		i++;
 	}
 }
 

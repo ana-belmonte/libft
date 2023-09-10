@@ -6,7 +6,7 @@
 /*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:15:08 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/06 21:13:20 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {
-	unsigned char	*buf1; 
+	unsigned char	*buf1;
 	unsigned char	*buf2;
 	size_t			i;
 

@@ -6,7 +6,7 @@
 #    By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/29 15:43:23 by anabelmonte       #+#    #+#              #
-#    Updated: 2023/09/06 18:20:36 by aaires-b         ###   ########.fr        #
+#    Updated: 2023/09/08 18:37:35 by aaires-b         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,13 +22,13 @@ CFILES	= 	ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 			ft_strmapi.c ft_striteri.c ft_putchar_fd.c \
 			ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c 
 
-BFILES = 	_bonus/ft_lstadd_back.c  _bonus/ft_lstadd_front.c  _bonus/ft_lstlast.c \
-		 _bonus/ft_lstmap.c  _bonus/ft_lstnew.c  _bonus/ft_lstsize.c \
-		  _bonus/ft_lstclear.c  _bonus/ft_lstdelone.c  _bonus/ft_lstiter.c 
+BFILES = 	ft_lstadd_back.c  ft_lstadd_front.c  ft_lstlast.c \
+		 	ft_lstmap.c ft_lstnew.c  ft_lstsize.c \
+		  	ft_lstclear.c  ft_lstdelone.c  ft_lstiter.c 
 			
 			
 OFILES	= $(CFILES:.c=.o)
-OFILESB = $(BFILES: .c=.o)
+OFILESB = $(BFILES:.c=.o)
 
 CC		= cc
 CFLAGS	= -Wall -Wextra -Werror

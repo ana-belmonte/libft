@@ -6,7 +6,7 @@
 /*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:12:15 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/06 21:10:52 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*calloc;
 
-	if (nmemb == 0 || size == 0)
-		return (NULL);
 	calloc = (void *)malloc(size * nmemb);
 	if (!calloc)
 		return (NULL);
