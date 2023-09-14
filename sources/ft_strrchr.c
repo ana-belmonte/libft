@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:17:13 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/14 18:37:44 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_strrchr(const char *str, int c)
 		}
 		i++;
 	}
-	if (str[i] == '\0' && d == 0)
+	if (str[i] == '\0' && d == '\0')
 	{
 		max = i;
 		return ((char *) str + max);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 18:12:56 by anabelmonte       #+#    #+#             */
-/*   Updated: 2023/09/07 22:09:37 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/14 19:30:28 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_strdup(const char *s);
 size_t	ft_strlcat(char *dest, const char *src, size_t n);
 size_t	ft_strlcpy(char *dest, const char *src, size_t n);
 size_t	ft_strlen(const char *str);
-size_t	ft_strncmp(const char *str1, const char *str2, size_t n);
+int		ft_strncmp(const char *str1, const char *str2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t n);
 char	*ft_strrchr(const char *str, int c);
 int		ft_tolower(int l);
