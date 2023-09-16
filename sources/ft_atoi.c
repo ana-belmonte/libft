@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:11:57 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/15 17:36:08 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,12 @@ int	ft_atoi(const char *str)
 	}
 	return (a * s);
 }
+
+/*int main()
+{
+	char str[] = "12345678912345678912";
+	
+	printf("%d\n", ft_atoi(str));
+	printf("%d", atoi(str));
+	return(0);
+}*/
