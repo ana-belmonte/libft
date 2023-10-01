@@ -12,7 +12,25 @@
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
-	write(fd, &c, 1);
+	int	i;
+
+	i = 0;
+	while (s[i])
+	{
+		write(fd, &s[i], 1);
+		i++;
+	}
+	write(fd, "\n", 1);
 }
+
+/*int main()
+{
+	int fd;
+	char *s = "ana";
+
+	fd = open("../filetesting/testlib2.txt", O_WRONLY);
+	ft_putendl_fd(s, fd);
+	return(0);
+}*/

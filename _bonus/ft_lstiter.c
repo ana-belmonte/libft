@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:13:49 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 21:33:19 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/09/20 22:08:26 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {

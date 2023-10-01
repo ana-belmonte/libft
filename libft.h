@@ -6,7 +6,7 @@
 /*   By: aaires-b <aaires-b@@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 18:12:56 by anabelmonte       #+#    #+#             */
-/*   Updated: 2023/09/14 19:30:28 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/10/01 15:03:37 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stddef.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <fcntl.h>
 
 typedef struct s_list
 {

@@ -12,14 +12,17 @@
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
-	int	i;
-
-	i = 0;
-	while (s[i])
-	{
-		write(fd, &s[i], 1);
-		i++;
-	}
+	write(fd, &c, 1);
 }
+
+/*int main()
+{
+	int fd;
+	char c = 'a';
+
+	fd = open("../filetesting/testlib.txt", O_WRONLY);
+	ft_putchar_fd(c, fd);
+	return(0);
+}*/

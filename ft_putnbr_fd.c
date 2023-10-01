@@ -36,3 +36,13 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n + 48, fd);
 	}
 }
+
+/*int main()
+{
+	int fd;
+	int d = 560;
+
+	fd = open("../filetesting/testlib3.txt", O_WRONLY);
+	ft_putnbr_fd(d, fd);
+	return(0);
+}*/
