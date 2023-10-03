@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:16:10 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/10/02 13:43:00 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,3 +105,20 @@ char	**ft_split(char const *s, char c)
 	finalstr[i] = NULL;
 	return (finalstr);
 }
+
+/*int main()
+{
+	char s[] = "ana bel monte";
+	char c = ' ';
+	char **finalstr;
+	int i;
+
+	i = 0;
+	finalstr = ft_split(s, c);
+	while(finalstr[i])
+	{
+		printf("%s\n", finalstr[i]);
+		i++;
+	}
+	return (0);
+}*/

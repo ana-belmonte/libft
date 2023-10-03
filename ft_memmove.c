@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <string.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
@@ -36,8 +37,9 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 /*int main()
 {
-	char src[] = "olaaaaaaa";
-
-	ft_memmove(src + 2, src, strlen(src) + 1);
+	char src[] = "1234567890";
+	char *dest;
+	
+	dest = ft_memmove(src + 2, src, strlen(src) + 1);
 	printf("%s", src);
 }*/

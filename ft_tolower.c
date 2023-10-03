@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:18:05 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:18:06 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/10/02 13:45:52 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_tolower(int l)
 		l += 32;
 	return (l);
 }
+
+/*int main()
+{
+	int l = 67;
+	
+	printf("%c", ft_tolower(l));
+	return (0);
+}*/

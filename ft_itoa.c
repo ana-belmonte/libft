@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaires-b <aaires-b@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: aaires-b <aaires-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 10:11:53 by aaires-b          #+#    #+#             */
-/*   Updated: 2023/09/06 10:13:13 by aaires-b         ###   ########.fr       */
+/*   Updated: 2023/10/02 13:12:48 by aaires-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,3 +72,11 @@ char	*ft_itoa(int n)
 	intstr[ft_getsize(n)] = '\0';
 	return (intstr);
 }
+
+/*int main()
+{
+	int n = 1234;
+
+	printf("%s", ft_itoa(n));
+	return (0);
+}*/
